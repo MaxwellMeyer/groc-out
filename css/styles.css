@@ -2,6 +2,7 @@
   display: none;
 }
 body {
+  text-align: center;
   background: linear-gradient(to right, rgb(0, 150, 0), rgb(87, 0, 187));
   color: rgb(255, 114, 137);
   text-shadow: .5px .5px rgb(217, 0, 255)
@@ -10,6 +11,7 @@ body {
   background: linear-gradient(45deg, blue, pink, green, cyan);
 }
 .sub {
+  margin-top: 50px;
   padding: 30px 30px;
   border-radius: 50%;
   background: linear-gradient(to right, red, blue);
@@ -22,6 +24,15 @@ body {
   background: yellow;
 }
 #reload {
+  margin-top: 75px;
   padding: 25px 25px;
   border-radius: 70%;
+  background: linear-gradient(to right, red, blue);
+  color: cyan;
+}
+#reload:hover {
+  background: linear-gradient(to right, blue, red);
+}
+#reload:active {
+  background: yellow;
 }
