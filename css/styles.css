@@ -1,3 +1,27 @@
 .results {
   display: none;
 }
+body {
+  background: linear-gradient(to right, rgb(0, 150, 0), rgb(87, 0, 187));
+  color: rgb(255, 114, 137);
+  text-shadow: .5px .5px rgb(217, 0, 255)
+}
+.jumbotron {
+  background: linear-gradient(45deg, blue, pink, green, cyan);
+}
+.sub {
+  padding: 30px 30px;
+  border-radius: 50%;
+  background: linear-gradient(to right, red, blue);
+  color: cyan;
+}
+.sub:hover {
+  background: linear-gradient(to right, blue, red);
+}
+.sub:active {
+  background: yellow;
+}
+#reload {
+  padding: 25px 25px;
+  border-radius: 70%;
+}
